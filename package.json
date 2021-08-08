@@ -1,0 +1,14 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "Landing page for styleguide",
+  "main": "index.js",
+  "scripts": {
+    "complie:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.37.5"
+  }
+}
