@@ -27,3 +27,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@include mq("tablet") {
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
